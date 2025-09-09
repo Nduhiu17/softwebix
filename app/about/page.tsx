@@ -12,7 +12,7 @@ export default function AboutPage() {
       
       {/* Custom Hero Section for About Page */}
       <section 
-        className="relative pt-24 md:pt-16 pb-16 lg:pb-24 bg-[#4A2E6F] overflow-hidden min-h-[60vh] flex items-center"
+        className="relative pt-24 md:pt-16 pb-6 lg:pb-2 bg-[#4A2E6F] overflow-hidden min-h-[60vh] flex items-center"
       >
         <div className="container mx-auto px-4 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-2 lg:gap-8 items-center">
