@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button"
 
 export function ContactCtaSection() {
   return (
-    <section className="py-20 bg-slate-800 text-white">
+    <section className="py-20 bg-[#07244b] text-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-6">Get Your IT Solutions Now at No Cost</h2>
         <p className="text-lg text-gray-200 mb-8 leading-relaxed max-w-3xl mx-auto">
