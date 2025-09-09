@@ -159,10 +159,10 @@ export default function WebDesignPage() {
             <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {/* Benefit 1 */}
               <div className="bg-white p-8 rounded-lg shadow-lg text-center h-full transform transition-transform hover:scale-105">
-                <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-yellow-400 flex items-center justify-center">
-                  <div className="text-4xl">🚀</div>
-                </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">We Deliver Your Website Within 8 Weeks</h3>
+                <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-yellow-400 flex items-center justify-center p-4">
+                  <img src="/images/developing-cost.svg" alt="Development Cost" className="w-full h-full object-contain" />
+                </div>
                 <p className="text-gray-600 mb-4">
                   Of Developing Cost. All the development works will be transparent and you can keep track the process at anytime.
                 </p>
@@ -171,10 +171,10 @@ export default function WebDesignPage() {
               
               {/* Benefit 2 */}
               <div className="bg-white p-8 rounded-lg shadow-lg text-center h-full transform transition-transform hover:scale-105">
-                <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-yellow-400 flex items-center justify-center">
-                  <div className="text-4xl">💼</div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">We Help You Save</h3>
+                <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-yellow-400 flex items-center justify-center p-4">
+                  <img src="/images/developing-cost.svg" alt="Additional Discount" className="w-full h-full object-contain" />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">24/7 Maintenance</h3>
                 <p className="text-gray-600 mb-4">
                   We will provide Additional Discount to Startups & SMEs. Our team is always available to support your needs.
                 </p>
@@ -183,10 +183,10 @@ export default function WebDesignPage() {
               
               {/* Benefit 3 */}
               <div className="bg-white p-8 rounded-lg shadow-lg text-center h-full transform transition-transform hover:scale-105">
-                <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-yellow-400 flex items-center justify-center">
-                  <div className="text-4xl">📈</div>
-                </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">62% Uptime Guarantees</h3>
+                <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-yellow-400 flex items-center justify-center p-4">
+                  <img src="/images/maintenance-guarantee.svg" alt="Maintenance Guarantee" className="w-full h-full object-contain" />
+                </div>
                 <p className="text-gray-600 mb-4">
                   We ensure the site remains secure, performs well, stays up to date, and provides a positive user experience at all times.
                 </p>
