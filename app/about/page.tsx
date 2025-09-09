@@ -2,6 +2,8 @@ import { Navigation } from "@/components/navigation"
 import { WhoWeAre } from "@/components/who-we-are"
 import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
+import { ContactCtaSection } from "@/components/contact-cta-section"
+import { FaqSection } from "@/components/faq-section"
 
 export default function AboutPage() {
   return (
@@ -42,6 +44,9 @@ export default function AboutPage() {
       
       <main className="flex-1">
         <WhoWeAre />
+        
+        <ContactCtaSection />
+        <FaqSection />
       </main>
     </div>
   )
