@@ -1,4 +1,5 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+import { Plus } from "lucide-react"
 
 const faqs = [
   {
@@ -32,8 +33,9 @@ export function FaqSection() {
             <div key={index} className="border-b border-slate-200 last:border-b-0">
               <Accordion type="single" collapsible>
                 <AccordionItem value={`item-${index}`} className="border-none">
-                  <AccordionTrigger className="text-left font-semibold text-slate-900 hover:text-slate-700 text-xl py-6 hover:no-underline [&[data-state=closed]>svg]:rotate-0 [&[data-state=open]>svg]:rotate-45">
-                    {faq.question}
+                  <AccordionTrigger className="group text-left font-semibold text-slate-900 hover:text-slate-700 text-xl py-6 hover:no-underline [&>svg:not(.plus-icon)]:hidden">
+                    <span className="flex-1 text-left">{faq.question}</span>
+                    <Plus className="plus-icon h-10 w-10 shrink-0 text-slate-500 group-hover:text-slate-700 transition-transform duration-200 group-data-[state=open]:rotate-45 p-1" />
                   </AccordionTrigger>
                   <AccordionContent className="text-slate-600 leading-relaxed pb-6 text-base">
                     {faq.answer}
