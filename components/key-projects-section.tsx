@@ -16,7 +16,7 @@ const projects = [
 
 export function KeyProjectsSection() {
   return (
-    <section className="py-20 bg-secondary/30">
+    <section className="py-20" style={{ backgroundColor: '#f5f7ee' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-left mb-16">
