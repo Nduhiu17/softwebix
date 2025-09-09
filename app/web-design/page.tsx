@@ -135,16 +135,70 @@ export default function WebDesignPage() {
                     maintenance costs, and delivers a seamless digital experience
                     that aligns with today's user expectations.
                   </p>
-                  <div className="w-full flex justify-center">
+                </div>
+              </div>
+              <div className="w-full flex justify-center">
                     <Button className="bg-[#534482] hover:bg-[#45386d] text-white font-extrabold py-7 px-12 rounded-full text-lg tracking-wide">
                       DESIGN YOUR WEBSITE NOW
                     </Button>
                   </div>
+            </div>
+          </div>
+        </section>
+        
+        {/* Key Benefits Section */}
+        <section className="py-20 bg-[#4A2E6F] text-white">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold mb-6">
+                Key Benefits of Our Web Design Services
+              </h2>
+              <div className="w-24 h-1 bg-yellow-400 mx-auto"></div>
+            </div>
+            
+            <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+              {/* Benefit 1 */}
+              <div className="bg-white p-8 rounded-lg shadow-lg text-center h-full transform transition-transform hover:scale-105">
+                <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-yellow-400 flex items-center justify-center">
+                  <div className="text-4xl">🚀</div>
                 </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">We Deliver Your Website Within 8 Weeks</h3>
+                <p className="text-gray-600 mb-4">
+                  Of Developing Cost. All the development works will be transparent and you can keep track the process at anytime.
+                </p>
+                <div className="w-8 h-1 bg-yellow-400 mx-auto"></div>
+              </div>
+              
+              {/* Benefit 2 */}
+              <div className="bg-white p-8 rounded-lg shadow-lg text-center h-full transform transition-transform hover:scale-105">
+                <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-yellow-400 flex items-center justify-center">
+                  <div className="text-4xl">💼</div>
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">24/7 Maintenance</h3>
+                <p className="text-gray-600 mb-4">
+                  We will provide Additional Discount to Startups & SMEs. Our team is always available to support your needs.
+                </p>
+                <div className="w-8 h-1 bg-yellow-400 mx-auto"></div>
+              </div>
+              
+              {/* Benefit 3 */}
+              <div className="bg-white p-8 rounded-lg shadow-lg text-center h-full transform transition-transform hover:scale-105">
+                <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-yellow-400 flex items-center justify-center">
+                  <div className="text-4xl">📈</div>
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">62% Uptime Guarantees</h3>
+                <p className="text-gray-600 mb-4">
+                  We ensure the site remains secure, performs well, stays up to date, and provides a positive user experience at all times.
+                </p>
+                <div className="w-8 h-1 bg-yellow-400 mx-auto"></div>
               </div>
             </div>
           </div>
         </section>
+      </main>
+      <main className="flex-1">
+        <FaqSection />
+        <ContactCtaSection />
       </main>
     </div>
   )
