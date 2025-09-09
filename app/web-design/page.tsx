@@ -47,6 +47,99 @@ export default function WebDesignPage() {
       </section>
       
       <main className="flex-1">
+        {/* Services Section */}
+        <section className="py-16 md:py-24 bg-white">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                We Provide Corporate Website Development & Revamping
+              </h2>
+              <div className="w-24 h-1 bg-yellow-400 mx-auto mt-4"></div>
+            </div>
+
+            <div className="space-y-12">
+              {/* Service 1 */}
+              <div className="flex flex-col md:flex-row items-center bg-white rounded-lg overflow-hidden shadow-lg">
+                <div className="w-full md:w-1/3 p-8 flex items-center justify-center">
+                  <div className="relative w-32 h-32">
+                    <div className="absolute inset-0 rounded-full bg-[#4A2E6F]"></div>
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <img src="/images/custom-web-design.svg" alt="Responsive Design" className="max-w-[80%] max-h-[80%] object-contain" />
+                    </div>
+                  </div>
+                </div>
+                <div className="w-full md:w-2/3 p-8">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Custom Responsive Website Design</h3>
+                  <p className="text-gray-600">
+                    We provide custom responsive website design for both desktop and mobile, delivering a seamless and visually appealing experience across all devices. Our designs are tailored to fit your brand and ensure optimal performance no matter where your users access your site.
+                  </p>
+                </div>
+              </div>
+
+              {/* Service 2 */}
+              <div className="flex flex-col md:flex-row-reverse items-center bg-white rounded-lg overflow-hidden shadow-lg">
+                <div className="w-full md:w-1/3 p-8 flex items-center justify-center">
+                  <div className="relative w-32 h-32">
+                    <div className="absolute inset-0 rounded-full bg-[#4A2E6F]"></div>
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <img src="/images/cms.svg" alt="CMS Integration" className="max-w-[80%] max-h-[80%] object-contain" />
+                    </div>
+                  </div>
+                </div>
+                <div className="w-full md:w-2/3 p-8">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Content Management System Integration</h3>
+                  <p className="text-gray-600">
+                    We provide CMS integration services that enable easy content management and updates for your website. Our solutions streamline your workflow, giving you full control to edit, publish, and manage your site content without technical expertise.
+                  </p>
+                </div>
+              </div>
+
+              {/* Service 3 */}
+              <div className="flex flex-col md:flex-row items-center bg-white rounded-lg overflow-hidden shadow-lg">
+                <div className="w-full md:w-1/3 p-8 flex items-center justify-center">
+                  <div className="relative w-32 h-32">
+                    <div className="absolute inset-0 rounded-full bg-[#4A2E6F]"></div>
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <img src="/images/seo.svg" alt="SEO & Performance" className="max-w-[80%] max-h-[80%] object-contain" />
+                    </div>
+                  </div>
+                </div>
+                <div className="w-full md:w-2/3 p-8">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Search Engine Optimization and Performance</h3>
+                  <p className="text-gray-600">
+                    We specialize in SEO and performance optimization to boost your website's visibility and speed. Our services ensure your site ranks higher in search results while delivering fast, smooth user experience.
+                  </p>
+                </div>
+              </div>
+
+              {/* Service 4 */}
+              <div className="flex flex-col md:flex-row-reverse items-center bg-white rounded-lg overflow-hidden shadow-lg">
+                <div className="w-full md:w-1/3 p-8 flex items-center justify-center">
+                  <div className="relative w-32 h-32">
+                    <div className="absolute inset-0 rounded-full bg-[#4A2E6F]"></div>
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <img src="/images/legacy-systems-upgrade.svg" alt="Legacy System Upgrades and UI Modernization" className="max-w-[80%] max-h-[80%] object-contain" />
+                    </div>
+                  </div>
+                </div>
+                <div className="w-full md:w-2/3 p-8">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Legacy System Upgrades and UI Modernization</h3>
+                  <p className="text-gray-600">
+                  Our Legacy System Upgrades and UI Modernization services focus
+                  on transforming outdated software and interfaces into modern,
+                  efficient, and user-friendly solutions. We update legacy systems
+                  to improve performance, security, and compatibility with current
+                  technologies, while redesigning user interfaces to enhance
+                  usability and aesthetics. This approach not only extends the life
+                  of your existing systems but also boosts productivity, reduces
+                  maintenance costs, and delivers a seamless digital experience
+                  that aligns with today’s user expectations.                 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   )
