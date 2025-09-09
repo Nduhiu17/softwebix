@@ -61,10 +61,10 @@ export default function WebDesignPage() {
               {/* Service 1 */}
               <div className="flex flex-col md:flex-row items-center bg-white rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full md:w-1/3 p-8 flex items-center justify-center">
-                  <div className="relative w-32 h-32">
+                  <div className="relative w-56 h-56">
                     <div className="absolute inset-0 rounded-full bg-[#4A2E6F]"></div>
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <img src="/images/custom-web-design.svg" alt="Responsive Design" className="max-w-[80%] max-h-[80%] object-contain" />
+                    <div className="absolute inset-0 flex items-center justify-center p-4">
+                      <img src="/images/custom-web-design.svg" alt="Responsive Design" className="w-full h-full object-contain" />
                     </div>
                   </div>
                 </div>
@@ -79,10 +79,10 @@ export default function WebDesignPage() {
               {/* Service 2 */}
               <div className="flex flex-col md:flex-row-reverse items-center bg-white rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full md:w-1/3 p-8 flex items-center justify-center">
-                  <div className="relative w-32 h-32">
+                  <div className="relative w-56 h-56">
                     <div className="absolute inset-0 rounded-full bg-[#4A2E6F]"></div>
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <img src="/images/cms.svg" alt="CMS Integration" className="max-w-[80%] max-h-[80%] object-contain" />
+                    <div className="absolute inset-0 flex items-center justify-center p-4">
+                      <img src="/images/cms.svg" alt="CMS Integration" className="w-full h-full object-contain" />
                     </div>
                   </div>
                 </div>
@@ -97,10 +97,10 @@ export default function WebDesignPage() {
               {/* Service 3 */}
               <div className="flex flex-col md:flex-row items-center bg-white rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full md:w-1/3 p-8 flex items-center justify-center">
-                  <div className="relative w-32 h-32">
+                  <div className="relative w-56 h-56">
                     <div className="absolute inset-0 rounded-full bg-[#4A2E6F]"></div>
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <img src="/images/seo.svg" alt="SEO & Performance" className="max-w-[80%] max-h-[80%] object-contain" />
+                    <div className="absolute inset-0 flex items-center justify-center p-4">
+                      <img src="/images/seo.svg" alt="SEO & Performance" className="w-full h-full object-contain" />
                     </div>
                   </div>
                 </div>
@@ -115,10 +115,10 @@ export default function WebDesignPage() {
               {/* Service 4 */}
               <div className="flex flex-col md:flex-row-reverse items-center bg-white rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full md:w-1/3 p-8 flex items-center justify-center">
-                  <div className="relative w-32 h-32">
+                  <div className="relative w-56 h-56">
                     <div className="absolute inset-0 rounded-full bg-[#4A2E6F]"></div>
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <img src="/images/legacy-systems-upgrade.svg" alt="Legacy System Upgrades and UI Modernization" className="max-w-[80%] max-h-[80%] object-contain" />
+                    <div className="absolute inset-0 flex items-center justify-center p-4">
+                      <img src="/images/legacy-systems-upgrade.svg" alt="Legacy System Upgrades and UI Modernization" className="w-full h-full object-contain" />
                     </div>
                   </div>
                 </div>
