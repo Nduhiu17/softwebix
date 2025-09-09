@@ -61,7 +61,7 @@ export default function WebDesignPage() {
               {/* Service 1 */}
               <div className="flex flex-col md:flex-row items-center bg-white rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full md:w-1/3 p-8 flex items-center justify-center">
-                  <div className="relative w-56 h-56">
+                  <div className="relative w-64 h-64">
                     <div className="absolute inset-0 rounded-full bg-[#4A2E6F]"></div>
                     <div className="absolute inset-0 flex items-center justify-center p-4">
                       <img src="/images/custom-web-design.svg" alt="Responsive Design" className="w-full h-full object-contain" />
@@ -79,7 +79,7 @@ export default function WebDesignPage() {
               {/* Service 2 */}
               <div className="flex flex-col md:flex-row-reverse items-center bg-white rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full md:w-1/3 p-8 flex items-center justify-center">
-                  <div className="relative w-56 h-56">
+                  <div className="relative w-64 h-64">
                     <div className="absolute inset-0 rounded-full bg-[#4A2E6F]"></div>
                     <div className="absolute inset-0 flex items-center justify-center p-4">
                       <img src="/images/cms.svg" alt="CMS Integration" className="w-full h-full object-contain" />
@@ -97,7 +97,7 @@ export default function WebDesignPage() {
               {/* Service 3 */}
               <div className="flex flex-col md:flex-row items-center bg-white rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full md:w-1/3 p-8 flex items-center justify-center">
-                  <div className="relative w-56 h-56">
+                  <div className="relative w-64 h-64">
                     <div className="absolute inset-0 rounded-full bg-[#4A2E6F]"></div>
                     <div className="absolute inset-0 flex items-center justify-center p-4">
                       <img src="/images/seo.svg" alt="SEO & Performance" className="w-full h-full object-contain" />
@@ -115,7 +115,7 @@ export default function WebDesignPage() {
               {/* Service 4 */}
               <div className="flex flex-col md:flex-row-reverse items-center bg-white rounded-lg overflow-hidden shadow-lg">
                 <div className="w-full md:w-1/3 p-8 flex items-center justify-center">
-                  <div className="relative w-56 h-56">
+                  <div className="relative w-64 h-64">
                     <div className="absolute inset-0 rounded-full bg-[#4A2E6F]"></div>
                     <div className="absolute inset-0 flex items-center justify-center p-4">
                       <img src="/images/legacy-systems-upgrade.svg" alt="Legacy System Upgrades and UI Modernization" className="w-full h-full object-contain" />
@@ -124,17 +124,22 @@ export default function WebDesignPage() {
                 </div>
                 <div className="w-full md:w-2/3 p-8">
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">Legacy System Upgrades and UI Modernization</h3>
-                  <p className="text-gray-600">
-                  Our Legacy System Upgrades and UI Modernization services focus
-                  on transforming outdated software and interfaces into modern,
-                  efficient, and user-friendly solutions. We update legacy systems
-                  to improve performance, security, and compatibility with current
-                  technologies, while redesigning user interfaces to enhance
-                  usability and aesthetics. This approach not only extends the life
-                  of your existing systems but also boosts productivity, reduces
-                  maintenance costs, and delivers a seamless digital experience
-                  that aligns with today’s user expectations.                 
+                  <p className="text-gray-600 mb-6">
+                    Our Legacy System Upgrades and UI Modernization services focus
+                    on transforming outdated software and interfaces into modern,
+                    efficient, and user-friendly solutions. We update legacy systems
+                    to improve performance, security, and compatibility with current
+                    technologies, while redesigning user interfaces to enhance
+                    usability and aesthetics. This approach not only extends the life
+                    of your existing systems but also boosts productivity, reduces
+                    maintenance costs, and delivers a seamless digital experience
+                    that aligns with today's user expectations.
                   </p>
+                  <div className="w-full flex justify-center">
+                    <Button className="bg-[#534482] hover:bg-[#45386d] text-white font-extrabold py-7 px-12 rounded-full text-lg tracking-wide">
+                      DESIGN YOUR WEBSITE NOW
+                    </Button>
+                  </div>
                 </div>
               </div>
             </div>
