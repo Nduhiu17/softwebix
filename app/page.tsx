@@ -5,7 +5,6 @@ import { KeyProjectsSection } from "@/components/key-projects-section"
 import { WhyUsSection } from "@/components/why-us-section"
 import { ContactCtaSection } from "@/components/contact-cta-section"
 import { FaqSection } from "@/components/faq-section"
-import { Footer } from "@/components/footer"
 
 export default function HomePage() {
   return (
@@ -17,7 +16,6 @@ export default function HomePage() {
       <WhyUsSection />
       <ContactCtaSection />
       <FaqSection />
-      <Footer />
     </main>
   )
 }
