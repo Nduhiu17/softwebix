@@ -12,34 +12,38 @@ export default function WebDesignPage() {
       <Navigation />
       
       {/* Custom Hero Section */}
-      <section className="relative pt-24 md:pt-16 pb-6 lg:pb-2 bg-[#4A2E6F] overflow-hidden min-h-[60vh] flex items-center">
+      <section className="relative pt-32 md:pt-40 lg:pt-24 pb-12 md:pb-6 lg:pb-2 bg-[#4A2E6F] overflow-hidden min-h-[80vh] sm:min-h-[70vh] md:min-h-[60vh] flex items-center">
         <div className="w-full relative z-10">
-          <div className="relative">
-            <div className="container mx-auto px-4">
-              <div className="lg:max-w-[50%] text-white">
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-yellow-400 mb-12" style={{ letterSpacing: '0.02em', fontWeight: 1200, lineHeight: '1' }}>
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+              {/* Left Column - Content */}
+              <div className="text-white order-2 lg:order-1">
+                <h1 className="text-3xl xs:text-4xl sm:text-5xl lg:text-6xl font-extrabold text-yellow-400 mb-6 sm:mb-8 md:mb-10 lg:mb-12" 
+                    style={{ letterSpacing: '0.02em', fontWeight: 1200, lineHeight: '1.1' }}>
                   Website Development
                 </h1>
-                <h2 className="text-4xl md:text-5xl lg:text-7xl font-extrabold mb-10 leading-tight" style={{ letterSpacing: '0.02em', fontWeight: 1200, lineHeight: '1' }}>
+                <h2 className="text-3xl xs:text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold mb-8 sm:mb-10 leading-tight" 
+                    style={{ letterSpacing: '0.02em', fontWeight: 1200, lineHeight: '1.1' }}>
                   <div className="whitespace-nowrap">ALL COMPANIES SHOULD</div>
                   <div className="whitespace-nowrap">HAVE A PERFECT WEBSITE</div>
-                  <div className="text-yellow-400 mt-3 md:mt-4">TO BOOST SALES</div>
+                  <div className="text-yellow-400 mt-2 sm:mt-3 md:mt-4">TO BOOST SALES</div>
                 </h2>
-                <Button className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-6 px-16 rounded-full text-xl">
+                <Button className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-4 sm:py-5 md:py-6 px-10 sm:px-14 md:px-16 rounded-full text-lg sm:text-xl transition-all duration-300 transform hover:scale-105">
                   START YOUR JOURNEY
                 </Button>
               </div>
-            </div>
-            
-            {/* Right Column - Image */}
-            <div className="absolute right-0 top-0 h-full w-[80%] flex items-center justify-end pr-4 md:pr-8 lg:pr-16 xl:pr-24">
-              <div className="h-[90%] w-full flex items-center justify-end">
-                <img 
-                  src="/images/1_2.svg" 
-                  alt="Website Development" 
-                  className="h-full w-auto max-w-none object-contain scale-110"
-                  style={{ maxHeight: '100%' }}
-                />
+              
+              {/* Right Column - Image */}
+              <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[500px] order-1 lg:order-2 mb-8 lg:mb-0">
+                <div className="absolute inset-0 flex items-center justify-center lg:justify-end">
+                  <img 
+                    src="/images/1_2.svg" 
+                    alt="Website Development" 
+                    className="h-full w-auto max-w-full object-contain"
+                    style={{ maxHeight: '100%' }}
+                    loading="eager"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -48,29 +52,34 @@ export default function WebDesignPage() {
       
       <main className="flex-1">
         {/* Services Section */}
-        <section className="py-16 md:py-24 bg-white">
-          <div className="container mx-auto px-4">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-white">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12 sm:mb-16 md:mb-20">
+              <h2 className="text-2xl xs:text-3xl sm:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
                 We Provide Corporate Website Development & Revamping
               </h2>
-              <div className="w-24 h-1 bg-yellow-400 mx-auto mt-4"></div>
+              <div className="w-20 sm:w-24 h-1 bg-yellow-400 mx-auto mt-3 sm:mt-4"></div>
             </div>
 
-            <div className="space-y-12">
+            <div className="space-y-8 sm:space-y-10 md:space-y-12">
               {/* Service 1 */}
-              <div className="flex flex-col md:flex-row items-center bg-white rounded-lg overflow-hidden shadow-lg">
-                <div className="w-full md:w-1/3 p-8 flex items-center justify-center">
-                  <div className="relative w-64 h-64">
-                    <div className="absolute inset-0 rounded-full bg-[#4A2E6F]"></div>
+              <div className="flex flex-col lg:flex-row items-center bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div className="w-full lg:w-2/5 xl:w-1/3 p-6 sm:p-8 flex items-center justify-center">
+                  <div className="relative w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64">
+                    <div className="absolute inset-0 rounded-full bg-[#4A2E6F] transform transition-transform duration-300 hover:scale-105"></div>
                     <div className="absolute inset-0 flex items-center justify-center p-4">
-                      <img src="/images/custom-web-design.svg" alt="Responsive Design" className="w-full h-full object-contain" />
+                      <img 
+                        src="/images/custom-web-design.svg" 
+                        alt="Responsive Design" 
+                        className="w-full h-full object-contain" 
+                        loading="lazy"
+                      />
                     </div>
                   </div>
                 </div>
-                <div className="w-full md:w-2/3 p-8">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Custom Responsive Website Design</h3>
-                  <p className="text-gray-600">
+                <div className="w-full lg:w-3/5 xl:w-2/3 p-6 sm:p-8">
+                  <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">Custom Responsive Website Design</h3>
+                  <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
                     We provide custom responsive website design for both desktop and mobile, delivering a seamless and visually appealing experience across all devices. Our designs are tailored to fit your brand and ensure optimal performance no matter where your users access your site.
                   </p>
                 </div>
