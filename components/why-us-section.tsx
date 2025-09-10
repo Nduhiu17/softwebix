@@ -8,13 +8,13 @@ export function WhyUsSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div>
-            <h2 className="text-4xl md:text-5xl font-bold text-purple-600 mb-8">WHY US?</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-[#3e3568] mb-8">WHY US?</h2>
             <p className="text-lg text-gray-800 leading-relaxed mb-8">
               At SoftWebix, we are proud to offer cost-effective, reliable, and innovative One-Stop IT services designed
               to help your business thrive without straining your budget. We have a team of 50 young, smart, and
               energetic developers and designers, we will always bring the most trendy solutions to your business
             </p>
-            <Button className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 text-lg font-semibold">
+            <Button className="bg-[#3e3568] hover:bg-[#2d2557] text-white px-16 py-8 text-lg font-semibold">
               CONNECT US
             </Button>
           </div>

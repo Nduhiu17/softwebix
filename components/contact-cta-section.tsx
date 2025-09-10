@@ -11,7 +11,7 @@ export function ContactCtaSection() {
         </p>
         <Button
           size="lg"
-          className="bg-green-500 hover:bg-green-600 text-white px-12 py-4 text-lg font-bold rounded-full"
+          className="bg-green-500 hover:bg-green-600 text-white px-16 py-8 text-lg font-bold rounded-full"
         >
           CONTACT US
         </Button>
