@@ -2,6 +2,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { SocialMediasSection } from '@/components/social-medias-section';
 import { SocialFaqSection } from '@/components/social-faq-section';
+import { FaqSection } from '@/components/faq-section';
+import { ContactCtaSection } from '@/components/contact-cta-section';
 
 const offers = [
   {
@@ -83,6 +85,7 @@ export default function SocialMediaPage() {
 
       <SocialMediasSection />
       <SocialFaqSection />
+      <ContactCtaSection />
     </div>
   );
 }

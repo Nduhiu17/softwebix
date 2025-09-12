@@ -61,7 +61,7 @@ export function SocialMediasSection() {
           ))}
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 items-center mt-16">
+        <div className="grid md:grid-cols-3 items-center mt-16">
           <div className="md:col-span-2 space-y-16">
             {socialMediasWithImage.map((social) => (
               <div key={social.name} className="grid md:grid-cols-3 gap-8 items-center">

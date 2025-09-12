@@ -8,6 +8,21 @@ const faqs = [
       "We increase engagement by creating high-quality, relevant content, running targeted ad campaigns, interacting with your audience through comments and messages, and analyzing performance data to optimize our strategy continuously.",
   },
   // Add more FAQs as needed
+  {
+    question: "Can you help grow our followers as well as engagement?",
+    answer:
+      "We can help grow your followers and engagement by creating high-quality, relevant content, running targeted ad campaigns, interacting with your audience through comments and messages, and analyzing performance data to optimize our strategy continuously.",
+  },
+  {
+    question: "Can you help grow our followers as well as engagement?",
+    answer:
+      "We can help grow your followers and engagement by creating high-quality, relevant content, running targeted ad campaigns, interacting with your audience through comments and messages, and analyzing performance data to optimize our strategy continuously.",
+  },
+  {
+    question: "How soon can we expect to see results?",
+    answer:
+      "We can help grow your followers and engagement by creating high-quality, relevant content, running targeted ad campaigns, interacting with your audience through comments and messages, and analyzing performance data to optimize our strategy continuously.",
+  },
 ];
 
 export function SocialFaqSection() {
