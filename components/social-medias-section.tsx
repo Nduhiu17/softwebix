@@ -11,6 +11,9 @@ const socialMedias = [
       'AD FORMATS INCLUDE: DYNAMIC MESSAGE PROMOTION, PROMOTED POST ADS, DYNAMIC SPONSORED ADS...ETC.',
     ],
   },
+];
+
+const socialMediasWithImage = [
   {
     name: 'Instagram',
     icon: '/images/social-media/instagram.svg',
@@ -56,6 +59,38 @@ export function SocialMediasSection() {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="grid md:grid-cols-3 gap-8 items-center mt-16">
+          <div className="md:col-span-2 space-y-16">
+            {socialMediasWithImage.map((social) => (
+              <div key={social.name} className="grid md:grid-cols-3 gap-8 items-center">
+                <div className="relative flex justify-center md:col-span-1">
+                  <Image
+                    src={social.icon}
+                    alt={`${social.name} icon`}
+                    width={150}
+                    height={150}
+                  />
+                </div>
+                <div className="md:col-span-2">
+                  <ul className="list-disc list-inside space-y-2">
+                    {social.points.map((point) => (
+                      <li key={point} className="text-lg text-gray-700">{point}</li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            ))}
+          </div>
+          <div className="relative flex justify-center items-center md:col-span-1">
+            <Image
+              src="/images/social-media/social-media-decorative-icons.png"
+              alt="Decorative Icons"
+              width={150}
+              height={300}
+            />
+          </div>
         </div>
       </div>
     </section>
