@@ -1,3 +1,4 @@
+import CustomizedBackendSection from "@/components/customized-backend-section";
 import JavaSection from "@/components/java-section";
 import ProfessionalServices from "@/components/professional-services";
 import ProgrammingHeroSection from "@/components/programming-hero-section";
@@ -10,6 +11,7 @@ export default function ProgrammingPage() {
       <ProfessionalServices />
       <PythonSection />
       <JavaSection />
+      <CustomizedBackendSection />
     </>
   );
 }
