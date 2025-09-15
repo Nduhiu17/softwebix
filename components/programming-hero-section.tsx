@@ -14,7 +14,7 @@ export default function ProgrammingHeroSection() {
           </h2>
           <Link
             href="#"
-            className="bg-yellow-400 text-gray-900 font-bold py-3 px-8 rounded-full hover:bg-yellow-500 transition duration-300"
+            className="bg-yellow-400 text-gray-900 font-bold py-3 px-32 rounded-full hover:bg-yellow-500 transition duration-300"
           >
             KNOW MORE
           </Link>
