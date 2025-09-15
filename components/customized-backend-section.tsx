@@ -50,8 +50,8 @@ export default function CustomizedBackendSection() {
                 {features.slice(0, 2).map((feature, index) => (
                   <div key={index}>
                     <div className="flex items-center mb-2">
-                      <h4 className="text-lg font-bold text-[#4B3A71]">{`${index + 1}. ${feature.title}`}</h4>
-                      <Image src={feature.icon} alt={feature.title} width={80} height={40} className="ml-4 object-contain" />
+                      <h4 className="text-xl font-bold text-[#4B3A71] whitespace-nowrap">{`${index + 1}. ${feature.title}`}</h4>
+                      <Image src={feature.icon} alt={feature.title} width={90} height={50} className="ml-4 object-contain" />
                     </div>
                     <ul className="list-disc list-inside text-gray-700">
                       <li>{feature.description}</li>
@@ -61,8 +61,8 @@ export default function CustomizedBackendSection() {
                 {/* Feature 5 in the first column */}
                 <div>
                   <div className="flex items-center mb-2">
-                    <h4 className="text-lg font-bold text-[#4B3A71]">{`5. ${features[4].title}`}</h4>
-                    <Image src={features[4].icon} alt={features[4].title} width={80} height={40} className="ml-4 object-contain" />
+                    <h4 className="text-xl font-bold text-[#4B3A71] whitespace-nowrap">{`5. ${features[4].title}`}</h4>
+                    <Image src={features[4].icon} alt={features[4].title} width={90} height={50} className="ml-4 object-contain" />
                   </div>
                   <ul className="list-disc list-inside text-gray-700">
                     <li>{features[4].description}</li>
@@ -74,8 +74,8 @@ export default function CustomizedBackendSection() {
                 {features.slice(2, 4).map((feature, index) => (
                   <div key={index}>
                     <div className="flex items-center mb-2">
-                      <h4 className="text-lg font-bold text-[#4B3A71]">{`${index + 3}. ${feature.title}`}</h4>
-                      <Image src={feature.icon} alt={feature.title} width={80} height={40} className="ml-4 object-contain" />
+                      <h4 className="text-xl font-bold text-[#4B3A71] whitespace-nowrap">{`${index + 3}. ${feature.title}`}</h4>
+                      <Image src={feature.icon} alt={feature.title} width={90} height={50} className="ml-4 object-contain" />
                     </div>
                     <ul className="list-disc list-inside text-gray-700">
                       <li>{feature.description}</li>
@@ -89,8 +89,8 @@ export default function CustomizedBackendSection() {
             <Image
               src="/images/Programming-services/customised-backend-development.svg"
               alt="Customized backend development illustration"
-              width={500}
-              height={500}
+              width={600}
+              height={600}
               className="mx-auto"
             />
           </div>
