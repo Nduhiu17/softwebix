@@ -35,33 +35,62 @@ const features = [
 
 export default function CustomizedBackendSection() {
   return (
-    <section className="py-20 bg-white text-gray-800">
+    <section className="py-20 bg-[#F9F7FD]">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center">
-          <div className="lg:w-1/2">
-            <h2 className="text-4xl font-bold mb-4">CUSTOMIZED BACKEND DEVELOPMENT</h2>
-            <p className="text-lg mb-8">
+          <div className="lg:w-1/2 pr-8">
+            <h2 className="text-4xl font-bold mb-4 text-[#4B3A71]">CUSTOMIZED BACKEND DEVELOPMENT</h2>
+            <p className="text-lg mb-8 text-gray-700">
               Our backend development services focus on building scalable, secure, and maintainable server-side systems tailored precisely to your business requirements. We design and implement backend architectures that act as the resilient foundation for your digital products, whether web applications, mobile apps, or cloud-based platforms.
             </p>
-            <h3 className="text-2xl font-bold mb-6">FEATURES</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8">
-              {features.map((feature, index) => (
-                <div key={index}>
-                  <div className="flex items-center justify-between mb-2">
-                    <h4 className="text-xl font-bold whitespace-nowrap">{`${index + 1}. ${feature.title}`}</h4>
-                    <Image src={feature.icon} alt={feature.title} width={60} height={60} className="ml-4" />
+            <h3 className="text-2xl font-bold mb-6 text-[#4B3A71]">FEATURES</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-8">
+              {/* Column 1 */}
+              <div className="flex flex-col space-y-8">
+                {features.slice(0, 2).map((feature, index) => (
+                  <div key={index}>
+                    <div className="flex items-center mb-2">
+                      <h4 className="text-lg font-bold text-[#4B3A71]">{`${index + 1}. ${feature.title}`}</h4>
+                      <Image src={feature.icon} alt={feature.title} width={80} height={40} className="ml-4 object-contain" />
+                    </div>
+                    <ul className="list-disc list-inside text-gray-700">
+                      <li>{feature.description}</li>
+                    </ul>
                   </div>
-                  <p className="text-sm">{feature.description}</p>
+                ))}
+                {/* Feature 5 in the first column */}
+                <div>
+                  <div className="flex items-center mb-2">
+                    <h4 className="text-lg font-bold text-[#4B3A71]">{`5. ${features[4].title}`}</h4>
+                    <Image src={features[4].icon} alt={features[4].title} width={80} height={40} className="ml-4 object-contain" />
+                  </div>
+                  <ul className="list-disc list-inside text-gray-700">
+                    <li>{features[4].description}</li>
+                  </ul>
                 </div>
-              ))}
+              </div>
+              {/* Column 2 */}
+              <div className="flex flex-col space-y-8">
+                {features.slice(2, 4).map((feature, index) => (
+                  <div key={index}>
+                    <div className="flex items-center mb-2">
+                      <h4 className="text-lg font-bold text-[#4B3A71]">{`${index + 3}. ${feature.title}`}</h4>
+                      <Image src={feature.icon} alt={feature.title} width={80} height={40} className="ml-4 object-contain" />
+                    </div>
+                    <ul className="list-disc list-inside text-gray-700">
+                      <li>{feature.description}</li>
+                    </ul>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
           <div className="lg:w-1/2 mt-10 lg:mt-0">
             <Image
               src="/images/Programming-services/customised-backend-development.svg"
               alt="Customized backend development illustration"
-              width={600}
-              height={600}
+              width={500}
+              height={500}
               className="mx-auto"
             />
           </div>
