@@ -6,10 +6,10 @@ export default function ProgrammingHeroSection() {
     <section className="relative bg-[#4B3A71] text-white py-20">
       <div className="container mx-auto flex flex-col lg:flex-row items-center">
         <div className="lg:w-1/2 text-center lg:text-left">
-          <h1 className="text-4xl lg:text-5xl font-bold leading-tight mb-4 text-yellow-400">
+          <h1 className="text-8xl lg:text-6xl font-bold leading-tight mb-12 text-yellow-400">
             Programming Services
           </h1>
-          <h2 className="text-5xl lg:text-7xl font-bold leading-tight mb-8">
+          <h2 className="text-5xl lg:text-7xl font-bold leading-tight mb-16">
             BUILDING THE FUTURE WITH <span className="text-yellow-400">JAVA AND PYTHON</span>
           </h2>
           <Link
@@ -19,7 +19,7 @@ export default function ProgrammingHeroSection() {
             KNOW MORE
           </Link>
         </div>
-        <div className="lg:w-1/2 mt-10 lg:mt-0">
+        <div className="lg:w-1/2 mt-12 lg:mt-0">
           <div className="relative">
             <Image
               src="/images/Programming-services/programming-services.png"
