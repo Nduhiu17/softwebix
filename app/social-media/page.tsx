@@ -32,12 +32,14 @@ export default function SocialMediaPage() {
   return (
     <div className="bg-white text-gray-800">
       {/* Hero Section */}
-      <section className="bg-[#4A2F6A] text-white pt-20 pb-10">
+      <section className="bg-[#4A2F6A] text-white pt-20 pb-10 md:min-h-[60vh] flex items-center">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="text-left">
-              <h1 className="text-2xl md:text-3xl font-bold text-yellow-400">Social Media Engagement</h1>
-              <h2 className="text-4xl md:text-5xl font-bold mt-2">CONNECT, ENGAGE, <br /> GROW — <br /> YOUR SOCIAL MEDIA, <br /> AMPLIFIED.</h2>
+              <h1 className="text-3xl md:text-4xl font-extrabold text-yellow-400">Social Media Engagement</h1>
+              <h2 className="text-5xl md:text-6xl font-black mt-2">
+                <span className="text-yellow-400">CONNECT, ENGAGE, <br /> GROW —</span> <br /> YOUR SOCIAL MEDIA, <br /> AMPLIFIED.
+              </h2>
             </div>
             <div className="relative">
               <Image
